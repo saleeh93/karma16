@@ -162,15 +162,15 @@ class F8TabsView extends React.Component {
           title="Sponsors"
           selected={this.props.tab === 'sponsors'}
           onPress={this.onTabSelect.bind(this, 'sponsors')}
-          icon={require('./maps/img/maps-icon.png')}
-          selectedIcon={require('./maps/img/maps-icon-active.png')}
+          icon={require('./notifications/img/notifications-icon.png')}
+          selectedIcon={require('./notifications/img/notifications-icon-active.png')}
         />
         <MenuItem
           title="Gallery"
           selected={this.props.tab === 'gallery'}
           onPress={this.onTabSelect.bind(this, 'gallery')}
-          icon={require('./maps/img/maps-icon.png')}
-          selectedIcon={require('./maps/img/maps-icon-active.png')}
+          icon={require('./notifications/img/notifications-icon.png')}
+          selectedIcon={require('./notifications/img/notifications-icon-active.png')}
         />
 
 
@@ -186,13 +186,6 @@ class F8TabsView extends React.Component {
           title="About"
           selected={this.props.tab === 'about'}
           onPress={this.onTabSelect.bind(this, 'about')}
-          icon={require('./info/img/info-icon.png')}
-          selectedIcon={require('./info/img/info-icon-active.png')}
-        />
-        <MenuItem
-          title="Committees"
-          selected={this.props.tab === 'committees'}
-          onPress={this.onTabSelect.bind(this, 'committees')}
           icon={require('./info/img/info-icon.png')}
           selectedIcon={require('./info/img/info-icon-active.png')}
         />
