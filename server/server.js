@@ -29,10 +29,10 @@ import {ParseServer} from 'parse-server';
 import ParseDashboard from 'parse-dashboard';
 
 const SERVER_PORT = process.env.PORT || 8080;
-const SERVER_HOST = process.env.HOST || '192.168.0.101';
+const SERVER_HOST = process.env.HOST || 'kmctkarma.com';
 const APP_ID = process.env.APP_ID || 'oss-f8-app-2016';
 const MASTER_KEY = process.env.MASTER_KEY || '70c6093dba5a7e55968a1c7ad3dd3e5a74ef5cac';
-const DATABASE_URI = process.env.DATABASE_URI || 'mongodb://localhost:27017/dev';
+const DATABASE_URI = process.env.DATABASE_URI || ' mongodb://karma16:karma16@ds021663.mlab.com:21663/karma16';
 const IS_DEVELOPMENT = process.env.NODE_ENV !== 'production';
 const DASHBOARD_AUTH = process.env.DASHBOARD_AUTH||'saleeh:saleeh';
 
